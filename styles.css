@@ -1,0 +1,20 @@
+img {
+    height: 576px;
+    width: 432px;
+    margin-top: 100px;
+    margin-left: 50px;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .image-container, .links-container, .description-container {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .links {
+    color: #616161;
+  }
