@@ -1,6 +1,6 @@
-.img {
-    height: 576px;
-    width: 432px;
+.image-container img {
+    max-width: 100%;
+    height: auto;
     margin-top: 100px;
     margin-left: 50px;
   }
@@ -13,6 +13,7 @@
   .image-container, .links-container, .description-container {
     flex: 1;
     padding: 10px;
+    text-align: center;
   }
   
   .links {
