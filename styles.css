@@ -1,21 +1,24 @@
-.image-container img {
-    max-width: 100%;
-    height: auto;
-    margin-top: 100px;
-    margin-left: 50px;
-  }
-  
-  .container {
-    display: flex;
-    align-items: center;
-  }
-  
-  .image-container, .links-container, .description-container {
-    flex: 1;
-    padding: 10px;
-    text-align: center;
-  }
-  
-  .links {
-    color: #616161;
-  }
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.text-center {
+  margin-top: 20px;
+}
+
+.img-fluid {
+  max-width: 200px;
+  height: auto;
+}
+
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
